@@ -2,15 +2,32 @@
 
 ## As a ___ I want ___ so that ___
 
+### Marketing  
 
+- As a member of the marketing team, I want to know which items are most likely to sell.
 
+- As a member of the marketing team, I want to know the number of clicks each item gets so that I can calculate popularity.
 
-User Stories
+- As a member of the marketing team, I want to have percentages of the number of times a product was clicked on when it was offered as an option to also calculate popularity.
 
-Part of your assignment today is to write your own user stories. Be sure to consider the multiple roles involved: the marketing research team, the developer, and the focus group participant who will be using the application. Try to write 4-5 user stories for each role. DO THIS STEP FIRST in a file called user_stories.md. The commit logs in your repo will have a first couple of commits for the scaffolding process, but next you should have a 'user stories' commit that is in place before any code is written.
+- As a member of the marketing team, I want to have a website that is visually appealing so that customers stay on the site and provide all of the data needed.
 
-A wise student would take about 30-45 minutes to work on the user stories and also draft a technical plan for the project (a detailed to-do list of things to make, step by step and tested at each stage) before getting into the code. That time spent in thought and planning will make the code flow a lot faster. Give yourself a series of little problems to solve (rather an a ginormous thing that you just wade through and poke at).
+### Developer
 
-Set 'em up, and knock 'em down.
+- As a developer, I want to display 3 images on the page for the user to select so that the customer has a choice of 3.
 
-Plan your work, and work your plan
+- As a developer, I want to be able to track and store the number of clicks per item so that I can figure out which items are the most/least popular.
+
+- As a developer, I want to be able to show a unique set of items after each click so that I can track clicks.
+
+- As a developer, I want to limit the number of sets of selections to 25 so that there is a consistent end point to product sets shown.
+
+### Focus Group
+
+- As a focus group member, I would like to have clear instructions so that I know what to do.
+
+- As a focus group member, I would like to be able to easily choose the product I like the best out of the three so that I can complete the task.  
+
+- As a focus group member, I want to see a variety of products so that I have a variety to choose from.
+
+- As a focus group member, I want to be able to see the images clearly so that I can make an accurate choice.
