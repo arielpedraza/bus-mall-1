@@ -4,19 +4,17 @@ var imgArray = ['bag.jpg', 'banana.jpg', 'bathroom.jpg', 'boots.jpg', 'breakfast
 
 console.log(imgArray);
 
-function randImg(name, filepath) {
-  this.name = name;
-  this.filepath = filepath;
-}
-
-function randomProduct() {
+function RandomProduct(idName) {
+  this.idName = idName;
   var productIndex = Math.floor(Math.random() * imgArray.length);
-  var imgEl = document.getElementById('random-products');
-  imgEl.addEventListener('click', randomProduct);
+  var imgEl = document.getElementById(this.idName);
+  imgEl.addEventListener('click', RandomProduct);
   imgEl.src = "img/" + imgArray[productIndex];
 }
 
 
-randomProduct();
-randomProduct();
-randomProduct();
+new RandomProduct('random-products1');
+new RandomProduct('random-products2');
+new RandomProduct('random-products3');
+
+// RandomProduct('random-products1');
